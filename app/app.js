@@ -1,3 +1,2 @@
-angular.module('calendarDemoApp', []);
+angular.module('CalendarDirectiveChallenge', []);
 
-// your controller and directive code go here

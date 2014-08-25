@@ -1,14 +1,14 @@
 {
-  "name": "calendar-starter",
+  "name": "calendar-directive",
   "version": "0.0.0",
-  "homepage": "https://github.com/Thinkful/angular-js-directive-demos",
+  "homepage": "https://github.com/petejh0/calendar-directive",
   "authors": [
-    "Benjamin White <benjamin.e.white1@gmail.com>"
+    "petejh0 <petejh0@users.noreply.github.com>"
   ],
   "moduleType": [
     "globals"
   ],
-  "license": "MIT",
+  "license": "",
   "private": true,
   "ignore": [
     "**/.*",
@@ -19,7 +19,9 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.20",
-    "angular-mocks": "~1.2.20"
+    "angular": "~1.2.23"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.23"
   }
 }

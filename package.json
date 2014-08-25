@@ -1,14 +1,23 @@
 {
-  "name": "calendar-starter",
+  "name": "calendar-directive",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "petejh0 <petejh0@users.noreply.github.com>",
+  "license": "",
   "devDependencies": {
-    "karma": "^0.12.17"
+    "gulp": "^3.8.7",
+    "gulp-webserver": "^0.7.0",
+    "karma": "^0.12.22",
+    "karma-cli": "0.0.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-spec-reporter": "0.0.13",
+    "lodash": "^2.4.1",
+    "path": "^0.4.9",
+    "phantomjs": "^1.9.7-15"
   }
 }
