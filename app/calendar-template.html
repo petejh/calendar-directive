@@ -1,0 +1,6 @@
+<div class="calendar">
+  <div class="day" ng-repeat="day in calendar.range.days" ng-class="{ first: $index % 7 == 0, top: $index < 7, filler: !calendar.isInCurrentMonth(day) }">
+    <span class="date">{{ day.day }}</span>
+  </div>
+</div>
+

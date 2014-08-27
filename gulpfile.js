@@ -23,10 +23,10 @@ var karmaConf = karmaParseConfig(karmaConfigPath, {});
 
 // Run tests once and exit
 gulp.task('test', function(done) {
-  karma.start(_.assign({}, karmaConf, { singleRun: true}), done);
+  karma.start(_.assign({}, karmaConf, { autowatch: false, singleRun: true}), done);
 });
 
 // Watch for file changes and re-run tests on each change
 gulp.task('tdd', function(done) {
-  karma.start(_.assign({}, karmaConf, { singleRun: false }), done);
+  karma.start(_.assign({}, karmaConf, { autowatch: true, singleRun: false }), done);
 });

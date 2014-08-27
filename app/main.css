@@ -1,0 +1,32 @@
+.calendar {
+  min-width: 35rem;
+}
+
+.day {
+  float: left;
+  width: 14%;
+  height: 7rem;
+  margin: 0;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.first {
+  clear: left;
+  border-left: 1px solid #000;
+}
+
+.top {
+  border-top: 1px solid #000;
+}
+
+.filler {
+  background-color: #888;
+}
+
+.date {
+  display: inline-block;
+  padding: 0.5rem;
+  font-weight: 700;
+}
+
