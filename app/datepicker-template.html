@@ -1,7 +1,3 @@
-<select name="month">
-  <option ng-repeat="month in range.months" value="$index">{{ month }}</option>
-</select>
-<select name="year">
-  <option ng-repeat="year in range.years" value="year">{{ year }}</option>
-</select>
+<select ng-model="date.month" ng-options="months.indexOf(month) as month for month in months"></select>
+<select ng-model="date.year" ng-options="year for year in years"></select>
 
